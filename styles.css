@@ -1,85 +1,101 @@
+/* Reset & Base */
 body {
-  font: 16px/1.6 'Georgia', serif;
-  color: #222;
-  margin: 0;
-  padding: 0;
-  background: #fff;
-}
-
-#container {
-  max-width: 960px;
-  margin: auto;
-  padding: 40px 20px;
-}
-
-.section-label {
-  text-transform: uppercase;
-  font: bold 14px sans-serif;
-  color: #f57914;
-  margin: 8px 0 20px;
-}
-
-.layout {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 30px;
-}
-
-.left-image img {
-  width: 400px;
-  height: auto;
-  object-fit: cover;
-}
-
-.article {
-  flex: 1;
-  max-width: 520px;
-}
-
-.article h1 {
-  font-size: 32px;
-  font-weight: 700;
-  margin: 0 0 20px;
-}
-
-.article h2 {
-  font: bold 18px serif;
-  margin-top: 24px;
-}
-
-.orange {
-  color: #f47e20;
-  font-weight: bold;
-}
-
-.article p {
-  margin-bottom: 18px;
-}
-
-.article p:first-of-type::first-letter {
-  float: left;
-  font-size: 48px;
-  line-height: 1;
-  font-weight: bold;
-  padding-right: 8px;
-}
-
-.credit {
-  text-align: right;
-  font-style: italic;
-  margin-top: 30px;
-}
-
-footer.page-number {
-  font: 12px sans-serif;
-  color: #555;
-  border-top: 1px solid #ccc;
-  margin-top: 40px;
-  padding-top: 10px;
-}
-
-footer.page-number small em {
-  font-style: normal;
-  font-weight: bold;
-}
+    font-family: 'Georgia', serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #222;
+    margin: 0;
+    padding: 0;
+    background: white;
+  }
+  #container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px 20px;
+  }
+  
+  /* EXIT INTERVIEW Label */
+  .section-label {
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #f57914;
+    font-weight: bold;
+    padding-top: 8px;
+    margin-bottom: 20px;
+  }
+  
+  /* Layout */
+  .layout {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  
+  /* Left image */
+  .left-image img {
+    width: 400px;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  /* Right content */
+  .article {
+    flex: 1;
+    max-width: 520px;
+  }
+  
+  /* Headings */
+  .article h1 {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 20px;
+  }
+  
+  .article h2 {
+    font-size: 18px;
+    margin-top: 24px;
+    font-weight: bold;
+  }
+  
+  /* Orange Name */
+  .orange {
+    color: #f47e20;
+    font-weight: bold;
+  }
+  
+  /* Paragraphs */
+  .article p {
+    margin-bottom: 18px;
+  }
+  
+  /* Drop Cap */
+  .article p:first-of-type::first-letter {
+    float: left;
+    font-size: 48px;
+    line-height: 1;
+    padding-right: 8px;
+    font-weight: bold;
+  }
+  
+  /* Author credit */
+  .credit {
+    text-align: right;
+    font-style: italic;
+    margin-top: 30px;
+  }
+  
+  /* Footer */
+  footer.page-number {
+    font-size: 12px;
+    color: #555;
+    border-top: 1px solid #ccc;
+    margin-top: 40px;
+    padding-top: 10px;
+  }
+  footer.page-number small em {
+    font-style: normal;
+    font-weight: bold;
+  }
+  
 
